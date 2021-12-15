@@ -1,0 +1,98 @@
+
+class Animal():
+    
+    def __init___(self):
+        self.nome = nome
+        self.sexo = sexo 
+    
+    def receberDados(self, nome, sexo):
+        self.nome = nome
+        self.sexo = sexo
+        
+    def exibirDados(self):
+        print(f'Nome do animal: {self.nome} \n Sexo do animal: {self.sexo}')
+
+    def caçar(self):
+        print('Caçando..')
+
+    def dormir(self):
+        print('Dormindo..')
+
+    def comer(self):
+        print('Comendo..')
+
+class Canino(Animal):
+        
+
+    def garrasExpostas(self):
+        self.garras = False
+        
+        if self.garras == False:
+            self.garras = True
+            print(self.garras)
+            
+        else:
+            
+            self.garras = False
+            print(self.garras)
+        
+        
+    def uivar():
+        print('Uivando..')
+
+    def rosnar():
+        print('Rosnando..') 
+
+class Felino(Animal):
+    
+    def __init___():
+        self.garras_retrateis = False
+        
+    
+    def garrasRetrateis():
+        if self.garrasRetrateis == False:
+            self.garrasRetrateis = True
+            print(self.garrasRetrateis)
+        
+        else:
+            garrasRetrateis = False
+            print(self.garrasRetrateis)
+    
+    
+    def ronronar():
+        print('Ronronando..')
+
+class Cachorro(Canino):
+    
+    def __init___():
+        self.onivoro = True 
+    
+    def latir():
+        print('latindo')
+
+class Lobo(Canino):
+    
+    def __init__():
+        self.carnivoro = True
+        
+    def construirMatilha():
+        print('Construindo matilha..')
+        
+class Gato(Felino):
+    
+    def miar():
+        print('Miando..')
+        
+class Onça(Felino):
+        
+    def rugir():
+        print('Rugindo..')
+
+vira = Animal()
+vira.receberDados('Vira lata caramelo', 'masculino')
+vira.caçar()
+
+vira2 = Cachorro()
+vira2.receberDados('mariolo','masculino')
+vira2.garrasExpostas()
+    
